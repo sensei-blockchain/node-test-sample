@@ -1,0 +1,22 @@
+{
+  "name": "test-sample",
+  "version": "0.0.1",
+  "description": "A basic project for using npm test",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 200000"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "*",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015-node5": "*",
+    "babel-preset-stage-3": "*"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "author": "Mayank Kumar",
+  "license": "ISC"
+}
